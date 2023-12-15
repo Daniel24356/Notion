@@ -1,0 +1,1347 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.all{
+    overflow: hidden;
+}
+.center-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 95px;
+}
+.write-text{
+    text-align: center;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 65px;
+    color: rgb(5, 5, 5);
+}
+.connect-text{
+    font-size: 24px;
+    font-weight: 500;
+}
+.free-button{
+    background-color: rgb(18, 18, 18);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 570;
+    border: none;
+    width: 163.2px;
+    height: 36px;
+    margin-bottom: 30px;
+}
+.wikis-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 22px;
+    width: 600px;
+    padding: 0px 12%;
+    margin-bottom: 20px;
+}
+.AI-container{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding: 16px 18px;
+    width: 239px;
+    height: 134px;
+    border-radius: 12px;
+    background-color: rgb(246, 245, 244);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(233, 229, 229);
+}
+.purple-cont{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.ai-text{
+    font-size: 23px;
+    color: rgb(5, 5, 5);
+}
+.ask-text{
+    font-size: 15px;
+    font-weight: 500;
+    color:rgb(5, 5, 5);
+}
+.ask-texts{
+    font-size: 15px;
+    font-weight: 500;
+    color:rgb(5, 5, 5)
+}
+.cont-img{
+    padding: 0px 12%;
+    margin-bottom: 100px;
+}
+.cont-img img{
+    border-radius: 15px;
+}
+.mill-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.power-text,
+.mill-text,
+.read-text{
+    text-align: center;
+}
+.mill-text{
+    font-size: 44px;
+    color: rgb(18, 18, 18);
+    font-weight: 700;
+}
+.power-text{
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(18, 18, 18) ;
+    line-height: 23px;
+}
+.read-text{
+    color: rgb(10, 133, 209);
+    font-size:17px;
+    font-weight:500;
+}
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 24px;
+}
+.logo-inner{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.logo-inners{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.figma{
+  width: 87px;
+  height: 29px;
+}
+.pixar{
+    width:109px;
+    height:23px;
+}
+.doordash{
+    width: 135px;
+    height: 19px;
+}
+.nike{
+    height: 30px;
+    width: 83px;
+}
+.amazon{
+    width: 90px;
+    height: 21px;
+}
+.pintrest{
+    width: 98px;
+    height: 25.34px;
+}
+.electric{
+    height: 50px;
+    width: 50px;
+}
+.uber{
+    width: 84px;
+    height: 30px;
+}
+.plaid{
+    width: 82px;
+    height: 31px;
+}
+.toyota{
+    width: 96px;
+    height: 26px;
+}
+.snow-flake{
+    width: 101px;
+    height: 25px;
+}
+.head-space{
+    width: 106px;
+    height: 24px;
+}
+.angel-list{
+    width: 104px;
+    height: 24px;
+}
+.robin-hood{
+    width: 97px;
+    height: 26px;
+}
+.tools-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.cut-box{
+    padding-top: 38px;
+}
+.tools-text{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color:rgb(18, 18, 18);
+    line-height: 49px;
+}
+.pencil-cont{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    margin-left: 190px;
+}
+.cancel-img{
+    margin-left: 75px;
+}
+.rid-cont{
+    margin-top: 60px;
+}
+.rid-text{
+    text-align: center;
+    font-size: 28px;
+    color:rgb(18, 18, 18);
+    font-weight: 400;
+    line-height: 34px;
+}
+.meta-cont{
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
+    gap: 7px;
+}
+.meta-lab{
+    width: 127px;
+    height: 35px;
+}
+.watt-text{
+    font-size: 13.6px;
+    font-weight: 700;
+    color: rgb(18, 18, 18);
+}
+.ops-text{
+    margin-top: 4px;
+    font-size: 13.7px;
+    font-weight: 450;
+    color: rgb(18, 18, 18);
+}
+.build-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 140px;
+}
+.build-text{
+    font-size: 45px;
+    color:rgb(18, 18, 18) ;
+    font-weight: 700;
+}
+.show-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   width: 1020px;
+   height: 852.5px;
+   border-radius: 12px;
+   background-color: whitesmoke;
+}
+.list-img{
+    border-radius: 12px;
+    border-color: rgb(231, 230, 230);
+    border-width: 1px;
+    border-style: solid;
+    height: 596.25px;
+    width: 954px;
+}
+.filter-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+.filter-cont img{
+    width: 36px;
+    height: 36px;
+}
+.filter-text{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(5, 5, 5);
+    margin-bottom: 7px;
+}
+.show-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(18, 18, 18);
+    line-height: 23px;
+}
+.board-cont{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.board{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 57.5px;
+ height: 25.3px;
+ border: 1px solid gainsboro;
+ border-radius: 5px;
+}
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54.7px;
+    height: 25.3px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.time-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 74.23px;
+    height: 25.3px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.calender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 77.90px;
+    height: 25.3px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65.049px;
+    height: 25.3px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42.625px;
+    height: 25.3px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.custom-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.indiv-custom{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 35px;
+    height: 535px;
+    width: 496px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 24px;
+}
+.indiv-img{
+    width: 34px;
+    height: 28px;
+}
+.half-img{
+    margin-top: 30px;
+}
+.mini-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flame{
+    width: 33px;
+    height: 36px;
+}
+.every-box{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    justify-content: center;
+}
+.hr-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 164px;
+    height: 125px;
+    border-color: rgb(246, 245, 244);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 16px;
+    background-color: rgb(246, 245, 244);
+}
+.team-text{
+    text-align: center;
+    color: rgb(18, 18, 18);
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.wiki-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.wiki-img{
+    height: 638px;
+    width: 1024px;
+    border-radius: 12px;
+    border: 1px solid rgb(233, 232, 230);
+}
+.join-box{
+    margin-top: 115px;
+}
+.vib-box{
+    margin-top: 15px;
+}
+.learn-box{
+    margin-top: 20px;
+}
+.hr-text{
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(5, 5, 5);
+}
+.face-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-top: 50px;
+}
+.comm-cont{
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.comm-box{
+    width: 321px;
+    height: 125px;
+    border-radius: 12px;
+    background-color: rgb(246, 245, 244);
+    padding: 24px 32px;
+}
+.support-box{
+    width: 496px;
+    height: 449px;
+    border-radius: 12px;
+    background-color: rgb(246, 245, 244);
+    padding: 24px 32px;
+}
+.wel-img{
+    height: 234.469px;
+    width: 461px;
+    margin-top: 92px;
+}
+.meet-box{
+    width: 680px;
+    height: 721.65px;
+    border-radius: 12px;
+    background-color:rgb(246, 245, 244) ;
+    padding: 24px 32px;
+}
+.meet-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 24px;
+}
+.hate-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.hates-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.support-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 24px;
+}
+.number-text{
+    font-size: 53px;
+    font-weight: 700;
+    color: rgb(10, 133, 209);
+}
+.comm-text{
+    font-size: 14.3px;
+    font-weight: 500;
+    color: rgb(18, 18, 18);
+}
+.name-text{
+   font-size: 15px;
+   font-weight: 700;
+   color: rgb(5, 5, 5);
+}
+.at-name{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+    font-weight: 500;
+}
+.hate-text{
+    font-size: 15px;
+    font-weight: 400;
+    color:rgb(18, 18, 18) ;
+    line-height: 22px;
+}
+.team-box{
+    margin-top: 120px;
+}
+.doc-box{
+    height: 227px;
+    width: 321px;
+    background-color:rgb(246, 245, 244);
+    padding-top: 15px;
+    padding-left:15px;
+    padding-right: 15px;
+    border-radius: 12px;
+}
+.doc-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.twitt-img{
+    height: 48px;
+    width: 48px;
+}
+.twitt-box{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 17px;
+}
+.company-box{
+    width: 496px;
+    height:643px;
+    padding-top: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color:rgb(246, 245, 244);
+    border-radius: 12px
+}
+.template-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 500px;
+    height: 647px;
+    row-gap: 24px;
+    column-gap: 24px;
+}
+.product-box{
+    height: 195.9px;
+    width: 234px;
+    background-color:rgb(246, 245, 244);
+    border-radius: 12px;
+    padding: 24px 32px;
+}
+.product-boxs{
+    height: 195.9px;
+    width: 234px;
+    background-color:rgb(246, 245, 244);
+    border-radius: 12px;
+    padding: 24px 32px;
+}
+.company-cont{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.way-text{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    color:rgb(18, 18, 18);
+}
+.way-box{
+    margin-top: 130px;
+}
+.browse-text{
+  color: rgb(10, 133, 209);
+  text-align: center;
+  font-size:17px;
+  font-weight:500;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.company-img{
+    width: 461px;
+    height: 371px;
+    margin-top: 120px;
+}
+.company-text{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(5, 5, 5);
+    margin-top: 13px;
+}
+.template-text{
+    color: rgb(10, 133, 209);
+    font-size: 17px;
+    margin-top: 35px;
+}
+.free-text{
+    color: rgb(18, 18, 18);
+    font-size: 61px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.play-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(18, 18, 18);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.demo-button{
+    height: 36px;
+    width: 143.719px;
+    background-color: white;
+    color: rgb(10, 133, 209);
+    font-size: 16px;
+    border: none;
+    margin-left: 6px;
+}
+.try-button{
+    height: 36px;
+    width: 143.719px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 18, 18);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 570;
+}
+.button-box{
+    margin-bottom: 25px;
+}
+.free-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+@media screen and (max-width:1174px){
+    .AI-container{
+        width: 218px;
+        height: 153px;
+   }
+   .center-text{
+    width: 974px;
+   }
+   .wikis-container{
+    gap: 10px;
+   }
+   .cont-img img{
+     width: 890px;
+     height: 521px;
+   }
+   .write-text{
+     font-size: 50px;
+     line-height: 50px;
+   }
+   .connect-text{
+     font-size: 18px;
+   }
+   .show-cont{
+    width: 890px;
+   }
+   .list-img{
+    width: 840px;
+   }
+   .indiv-custom{
+    width:430px ;
+   }
+   .half-img img{
+     width: 398px;
+   }
+   .hr-box{
+    width: 140px;
+   }
+    .wiki-img{
+    width: 890px;
+    }
+    .comm-box{
+    width: 300px;
+    }
+    .support-box{
+    width: 459px;
+    }
+    .wel-img{
+        width: 425px;
+        height: 210px;
+    }
+    .meet-box{
+        width: 600px;
+        height: 650px;
+    }
+    .car{
+        width: 550px;
+   }
+   .doc-box{
+    height: 200px;
+   }
+   .company-box{
+    height: 550px;
+   }
+   .company-img{
+    margin-top: 80px;
+    height: 320px;
+   }
+   .product-box{
+    height: 166.9px;
+    width: 192px;
+   }
+   .product-boxs{
+    height: 166.9px;
+    width: 192px;
+   }
+   .template-box{
+    width: 390px;
+   height: 550px;
+   }
+   .company-text{
+    font-size: 16px;
+    white-space: nowrap;
+   }
+   .large-box img{
+     width: 800px;
+   }
+}
+   
+@media screen and (max-width:1030px) {
+    .AI-container{
+        width: 200px;
+        height: 153px;
+   }
+   .cont-img img{
+    width: 830px;
+    height: 521px;
+  }
+  .mill-text{
+    font-size: 35px;
+  }
+  .logo-container{
+    gap: 19px;
+  }
+  .logo-inner{
+    gap: 20px;
+  }
+  .logo-inners{
+    gap: 20px;
+  }
+   .tools-text{
+    font-size: 35px;
+   }
+   .rid-text{
+    font-size: 23px;
+   }
+   .build-text{
+    font-size: 37px;
+   }
+   .show-cont{
+    width: 863px;
+   }
+   .team-text{
+    font-size: 37px;
+   }
+   .way-text{
+    font-size: 35px;
+   }
+   .free-text{
+    font-size: 45px;
+   }
+}
+@media screen and (max-width:980px){
+    .AI-container{
+        width: 185px;
+        height: 135px;
+        gap: 8px;
+   }
+   .write-text{
+      font-size: 40px;
+   }
+   .purple-text{
+    width: 94px;
+   }
+   .cont-img{
+    margin-bottom: 70px;
+   }
+   .logo-container{
+    margin-top: 10px;
+    gap: 8px;
+   }
+   .tools-cont{
+    margin-top: 50px;
+   }
+   .rid-cont{
+    margin-top: 30px;
+   }
+   .build-cont{
+    margin-top: 90px;
+   }
+   .cont-img img{
+    width: 770px;
+    height: 521px;
+  }
+  .show-cont{
+    width: 803px;
+    height: 720px;
+   }
+   .list-img{
+    width: 750px;
+    height: 480px;
+   }
+   .indiv-custom{
+    width:390px ;
+    height: 450px;
+   }
+   .half-img{
+    margin-top: 0px;
+   }
+   .half-img img{
+    width: 360px;
+    height: 260px;
+  }
+  .hr-box{
+    width: 125px;
+   }
+   .wiki-img{
+    width: 800px;
+    height: 450px;
+    }
+    .face-box img{
+        width: 103px;
+    }
+    .comm-box{
+        width: 260px;
+    }
+    .support-box{
+        width: 403px;
+    }
+    .wel-img{
+        width: 370px;
+        height: 188px;
+    }
+    .meet-box{
+        width: 490px;
+        height: 650px;
+    }
+    .car{
+        width: 429px;
+        height: 550px;
+   }
+   .company-box{
+    width: 420px;
+   }
+   .company-img{
+    margin-top: 80px;
+    width: 385px;
+   }
+   .product-box{
+    width: 180px;
+   }
+   .product-boxs{
+    width: 180px;
+   }
+
+}
+@media screen and (max-width:880px){
+    .AI-container{
+        width: 155px;
+        height: 135px;
+        gap: 8px;
+   }
+   .center-text{
+    width: 890px;
+   }
+   .wikis-container{
+    overflow: auto;
+    width: 800px;
+   }
+   .ai-text{
+    font-size: 19px;
+   }
+   .center-text img{
+    width: 500px;
+   }
+   .ask-texts{
+    font-size: 13px;
+   }
+   .ask-text{
+    font-size: 13px;
+   }
+    .purple-text{
+    width: 64px;
+   }
+   .cont-img img{
+    width: 650px;
+    height: 461px;
+  }
+  .logo-inner{
+    gap: 7px;
+  }
+  .logo-inners{
+    gap: 7px;
+  }
+  .show-cont{
+    width: 663px;
+    height: 620px;
+   }
+   .list-img{
+    width: 550px;
+    height: 380px;
+   } 
+   .indiv-custom{
+    width:320px ;
+    height: 350px;
+   }
+   .filter-text{
+    font-size: 16px;
+   }
+   .show-text{
+    font-size: 14px;
+   }
+   .half-img img{
+    width: 289px;
+    height: 165px;
+  }
+  .hr-box{
+    width: 105px;
+    height: 110px;
+   }
+   .wiki-img{
+    width: 680px;
+    height: 350px;
+    }
+    .face-box img{
+        width: 88px;
+    }
+    .comm-box{
+        width: 212px;
+    }
+    .support-box{
+        width: 333px;
+        height: 390px;
+    }
+    .number-text{
+        font-size: 37px;
+    }
+    .wel-img{
+        width: 300px;
+        height: 188px;
+        margin-top: 30px;
+    }
+    .meet-box{
+        width: 690px;
+        height: 590px;
+    }
+    .car{
+        width: 600px;
+        height: 510px;
+   }
+   .hate-text{
+    font-size: 13px;
+   }
+   .meet-cont{
+    flex-direction: column;
+   }
+   .doc-cont{
+    flex-direction: row;
+   }
+   .doc-box{
+    height: 285px;
+    width: 215px;
+   }
+   .company-cont{
+    flex-direction: column ;
+   }
+   .company-box{
+    width: 670px;
+    height: 600px;
+   }
+   .company-img{
+    margin-top: 80px;
+    width: 595px;
+    height: 370px;
+   }
+   .template-box{
+    width: 660px;
+   }
+   .product-box{
+    width: 325px;
+   }
+   .product-boxs{
+    width: 325px;
+   }
+}
+@media screen and (max-width:800px) {
+    .center-text{
+        width: 850px;
+       }
+}
+@media screen and (max-width:710px) {
+    .center-text{
+        width: 770px;
+       }
+       .wikis-container{
+        overflow: auto;
+        width: 580px;
+       }
+       .cont-img img{
+        width: 600px;
+       }
+    }
+    @media screen and (max-width:688px) {
+        .cont-img {
+            padding: 0px 5%;
+           }
+           .center-text{
+            width: 710px;
+           }
+           .cancel-img{
+            width: 500px;
+           }
+           .pencil-cont{
+            margin-left: 90px;
+           }
+           .show-cont{
+            width: 600px;
+           }
+           .custom-box{
+            flex-direction: column;
+            gap: 10px;
+           }
+           .indiv-custom{
+            width: 600px;
+           }
+           .half-img img{
+            width: 400px;
+            height: 210px;
+           }
+           .wiki-img{
+            width: 600px;
+            height: 400px;
+           }
+           .every-box{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            width: 650px;
+            padding-left: 33px;
+           }
+           .hr-box{
+            width: 190px;
+           }
+           .power-text{
+            font-size: 16px;
+           }
+           .face-box{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            width: 600px;
+            padding-left: 60px;
+           }
+           .face-box img{
+            width: 150px;
+           }
+           .comm-cont{
+            flex-direction: column;
+           }
+           .comm-box{
+            width: 600px;
+           }
+           .support-cont{
+            flex-direction: column;
+           }
+           .support-box{
+            width: 600px;
+           }
+           .meet-box{
+            width: 600px;
+           }
+           .car{
+            width: 530px;
+           }
+           .doc-cont{
+            flex-direction: column;
+           }
+           .doc-box{
+            width: 600px;
+           }
+           .company-box{
+            width: 600px;
+           }
+           .company-img{
+            width: 530px;
+           }
+           .template-box{
+            grid-template-columns: repeat(1,1fr);
+            margin-left:60px;
+           }
+           .product-box{
+            width: 600px;
+           }
+           .product-boxs{
+            display: none;
+           }
+           .free-box{
+            margin-top: 70px;
+           }
+        }
+        @media screen and (max-width:644px) {
+            .connect-text{
+                white-space: nowrap;
+            }
+            .center-text{
+                width: 620px;
+            }
+           .cont-img img{
+            width: 560px;
+           }
+           .mill-text{
+            white-space: wrap;
+           }
+           .power-text{
+            white-space: wrap;
+           }
+           .logo-inners{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            row-gap: 20px;
+            width: 400px;
+           }
+           .logo-container{
+            gap: 20px;
+           }
+           .pencil-cont img{
+            width: 140px;
+           }
+           .tools-text{
+            white-space: wrap;
+           }
+           .cancel-img{
+            width: 400px;
+           }
+           .rid-text{
+            white-space: wrap;
+           }
+           .show-cont{
+            width: 560px;
+           }
+           .list-img{
+            width: 490px;
+           }
+           .indiv-custom{
+            width: 560px;
+           }
+           .hr-box{
+            width: 185px;
+           }
+           .every-box{
+             width: 580px;
+             padding-left: 60px;
+           }
+           .wiki-img{
+            width: 560px;
+           }
+           .mill-text{
+            white-space: wrap;
+           }
+           .power-text{
+            white-space: wrap;
+           }
+           .face-box img{
+            width: 110px;
+           }
+           .comm-box{
+            width: 560px;
+           }
+           .support-box{
+            width: 560px;
+           }
+           .meet-box{
+            width: 560px;
+           }
+           .car{
+            width:480px ;
+           }
+           .doc-box{
+            width: 560px;
+           }
+           .company-box{
+            width: 560px;
+           }
+           .company-img{
+            width: 500px;
+           }
+           .product-box{
+            width: 560px;
+           }
+           .template-box{
+            padding-left: 20px;
+           }
+        }
+        @media screen and (max-width:480px){
+            .center-text{
+                width: 420px;
+            }
+            .center-text img{
+                width: 350px;
+            }
+            .AI-container{
+                 width: 370px;
+                height: 130px;
+            }
+            .wikis-container{
+                overflow: auto;
+                width: 400px;
+                padding: 0px 6%;
+            }
+            .write-text{
+                white-space: wrap;
+                font-size: 38px;
+            }
+            .connect-text{
+               text-align: center;
+                white-space: wrap;
+            }
+            .cont-img img{
+                width: 370px;
+                height: 300px;
+            }
+            .logo-container{
+                padding-left: 20px;
+            }
+            .logo-inners{
+                width: 330px;
+                gap: 10px;
+            }
+            .cancel-img{
+                width: 300px;
+            }
+            .pencil-cont img{
+                height: 130px;
+            }
+            .cut-box{
+                padding-top: 0px;
+            }
+            .build-text{
+                text-align: center;
+            }
+            .show-cont{
+                width: 390px;
+            }
+            .list-img{
+                width: 320px;
+                height: 270px;
+            }
+            .filter-cont{
+                width: 290px;
+            }
+            .board-cont{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+            }
+            .indiv-custom{
+                width: 390px;
+            }
+            .half-img img{
+                width: 300px;
+                height: 180px;
+            }
+            .every-box{
+                grid-template-columns: repeat(2,1fr);
+                width: 350px;
+            }
+            .wiki-img{
+                width: 390px;
+                height: 350px;
+            }
+            .face-box{
+                width: 290px;
+                padding-left: 120px;
+            }
+            .comm-box{
+                width: 390px;
+            }
+            .support-box{
+                width: 390px;
+            }
+            .meet-box{
+                width: 390px;
+            }
+            .car{
+                width: 340px;
+                height: 500px;
+            }
+            .doc-box{
+                width: 390px;
+                height: 220px;
+            }
+            .company-box{
+                width: 390px;
+            }
+            .company-img{
+                width: 355px;
+            }
+            .template-box{
+                width: 490px;
+            }
+            .product-box{
+                width: 390px;
+            }
+        }

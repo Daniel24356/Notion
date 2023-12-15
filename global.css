@@ -1,0 +1,417 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    padding:15px 10px ;
+}
+.notion-text{
+    color: rgb(18, 18, 18);
+    fill:rgb(18, 18, 18) ;
+    font-weight: 550;
+    font-size: 18px;
+}
+.nav-box{
+    display: flex;
+    align-items: center;
+    transition: device-box 3.15s,devices-box 3.15s,devicess-box 5.15s,devicesss-box 5.15s;
+}
+.nav-box:hover{
+    background-color: rgb(243, 240, 240);
+}
+.device-box{
+    display: none;
+}
+.nav-box:hover .device-box div:hover{
+    background-color: rgb(243, 240, 240);
+    border-radius: 3px;
+}
+.device-box p{
+    color: rgb(5, 5, 5);
+    font-size: 15.4px;
+    font-weight: 540;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.nav-box:hover .device-box{
+    display: flex;
+    border-radius: 3px;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px 1px gainsboro;
+    gap: 2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 21px;
+    position: absolute;
+    background-color:white;
+    margin-top: 135px;
+}
+.devices-box{
+    display: none;
+}
+.nav-box:hover .devices-box div:hover{
+    background-color: rgb(243, 240, 240);
+    border-radius: 3px;
+}
+.devices-box p{
+    color: rgb(5, 5, 5);
+    font-size: 15.4px;
+    font-weight: 540;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.nav-box:hover .devices-box{
+    display: flex;
+    border-radius: 3px;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px 1px gainsboro;
+    gap: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 21px;
+    position: absolute;
+    background-color:white;
+    margin-top: 247px;
+}
+.devicess-box{
+    display: none;
+}
+.drop-box{
+    padding-right: 7px;
+}
+.drop-box div,
+.know-cont div{
+    padding-right: 19px;
+    padding-left: 3px;
+}
+.nav-box:hover .devicess-box .drop-box div:hover{
+    background-color: rgb(243, 240, 240);
+    border-radius: 3px;
+}
+.nav-box:hover .devicess-box .know-cont div:hover{
+    background-color: rgb(243, 240, 240);
+    border-radius: 3px;
+}
+
+.wikis-text{
+    color: rgb(5, 5, 5);
+    font-size: 15.8px;
+    font-weight: 540;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.know-text{
+    color: gray;
+    font-size: 14.4px;
+    font-weight: 540;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.drop-box{
+    border-right: 1px solid gainsboro;
+}
+.know-box{
+    display: flex;
+}
+.nav-box:hover .devicess-box{
+    display: flex;
+    border-radius: 3px;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px 1px gainsboro;
+    gap: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 21px;
+    position: absolute;
+    background-color:white;
+    margin-top: 225px;
+}
+.devicesss-box{
+    display: none;
+}
+.teams{
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+    padding-left: 8px;
+}
+.team{
+    padding-left: 8px;
+}
+.team,
+.teams{
+    padding-right: 8px;
+}
+.team div,
+.teams div{
+    padding-right: 28px;
+}
+.know-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-right: 10px;
+}
+.team p,
+.teams p{
+    color: rgb(5, 5, 5);
+    font-size: 15.8px;
+    font-weight: 540;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.devicesss-box h5{
+    color: rgb(114, 114, 114);
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 6px;
+    padding-left: 3px;
+}
+.know-cont h5{
+    color: rgb(114, 114, 114);
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+.nav-box:hover .devicesss-box .know-cont div:hover{
+    background-color: rgb(243, 240, 240);
+    border-radius: 3px;
+}
+.nav-box:hover .devicesss-box .team div:hover{
+    background-color: rgb(243, 240, 240);
+    border-radius: 3px;
+}
+.nav-box:hover .devicesss-box .teams div:hover{
+    background-color: rgb(243, 240, 240);
+    border-radius: 3px;
+}
+/* .devicesss-box p{
+    color: rgb(5, 5, 5);
+    font-size: 15.4px;
+    font-weight: 540;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-left: 5px;
+} */
+.nav-box:hover .devicesss-box{
+    display: flex;
+    border-radius: 3px;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px 1px gainsboro;
+    gap: 2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 21px;
+    position: absolute;
+    background-color:white;
+    margin-top: 223px;
+}
+.nav-text{
+    color: rgb(5, 5, 5);
+    font-size: 15.4px;
+    font-weight: 540;
+    padding: 0px 3px;
+}
+.logo-cont{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.logo-img{
+    width: 37px;
+    height: 37px;
+}
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.menu{
+    display: none;
+}
+.menu-img{
+    width: 25px;
+    height: 25px;
+}
+.notion-button{
+    background-color: rgb(18, 18, 18);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 13.5px;
+    font-weight: 554;
+    border: none;
+    width: 122.0px;
+    height: 30px;
+}
+footer{
+    padding: 80px 12%;
+   display: flex;
+   flex-direction: column;
+   gap: 82px;
+}
+.all-box{
+    display: flex;
+    gap: 100px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.content-box{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.content ul{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(18, 18, 18);
+}
+.content ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+.content ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    white-space: nowrap;
+    padding-top: 10px;
+}
+.img-foot{
+    height: 33px;
+    width: 34px
+}
+.foot-box{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 27px;
+}
+.english-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width:122.2px;
+    height:36px ;
+    margin-top: 14px;
+}
+.eng-text{
+    font-size: 16px;
+    font-weight: 570;
+    color: rgb(18, 18, 18);
+}
+
+.lab-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 260px;
+}
+.sell-text{
+    color:rgb(18, 18, 18);
+    font-size: 14.5px;
+    font-weight: 500;
+}
+.lab-text{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14.5px;
+    font-weight: 500;
+}
+@media screen and (max-width:1174px) {
+    .left-side{
+        gap: 8px;
+    }
+    .right-side{
+        gap: 8px;
+    }
+    .nav-text{
+        font-size: 15px;
+    }
+    footer{
+        padding: 80px 8%;
+        gap: 40px;
+    }
+}
+@media screen and (max-width:1030px) {
+   footer{
+    gap: 30px;
+   }
+   .all-box{
+    gap: 50px;
+   }
+   .content{
+    gap: 80px;
+   }
+}
+@media screen and (max-width:980px) {
+    .menu{
+        display: block;
+    }
+    .right-side{
+        display: none;
+    }
+    .nav-box{
+        display: none;
+    }
+    .price-box{
+        display: none;
+    }
+    }
+    @media screen and (max-width:800px) {
+        .content{
+            gap: 30px;
+        }
+    }
+    @media screen and (max-width:710px) {
+        .all-box{
+            flex-direction: column;
+        }
+        .content{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .lab-box{
+           padding-left: 10px;
+        }
+        
+    }
+    
+       
